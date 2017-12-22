@@ -1,0 +1,33 @@
+{
+  "name": "grunt-angularjs",
+  "version": "1.0.0",
+  "description": "angularJS that is bundled using grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachiTee/grunt-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SachiTee/grunt-angular/issues"
+  },
+  "homepage": "https://github.com/SachiTee/grunt-angular#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html2js": "^0.5.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.7"
+  }
+}
